@@ -2,6 +2,8 @@ import React from 'react'
 import Post from './Post'
 import Comment from './Comment'
 
+import Routes from '../Routes'
+
 export default class App extends React.Component {
   render() {
     return (
@@ -17,7 +19,7 @@ export default class App extends React.Component {
           <Comment/>
 
         </div> 
-        
+        <Routes/>
       </div>
       
     )
