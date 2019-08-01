@@ -14,7 +14,7 @@ export default class App extends React.Component {
 
         <div className="container">
 
-          <Comment text='Teste de comentário'/>
+          <Comment/>
 
         </div> 
         
